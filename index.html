@@ -14,9 +14,9 @@
     <div id="root">
 
         <h1>My Carousel</h1>
-        <h1>{{index}}</h1>
 
-        <div class="carouselContainer">
+
+        <div class="carouselContainer" @mouseover="hover" @mouseleave="hover">
 
             <i class="fas fa-chevron-left" @click="prev"></i>
             <div class="imgContainer">
