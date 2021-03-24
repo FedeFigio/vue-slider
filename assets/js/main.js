@@ -49,7 +49,7 @@ var app = new Vue({
                 this.index = 0
             }
             this.stop
-        }, 1000)
+        }, 3000)
     }
 
 })
